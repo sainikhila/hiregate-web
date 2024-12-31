@@ -1,0 +1,104 @@
+ .contactDetails {
+     display: block;
+     padding: 20px;
+
+     .detailHead {
+         float: left;
+         font: bold 0.9375em Arial;
+         color: #1D808F;
+     }
+
+     .detailBlock {
+         display: block;
+         margin: 0 0 20px 110px;
+         min-height: 16px;
+
+         .name {
+             display: block;
+             font: 0.9375em Arial;
+             color: #454545;
+             margin-bottom: 8px;
+         }
+
+         .phoneBlock,
+         .emailBlock {
+             display: block;
+             margin-bottom: 4px;
+         }
+
+         .emailIcon,
+         .phIcon {
+             display: inline-block;
+             vertical-align: top;
+             width: 16px;
+             height: 16px;
+             margin-right: 4px;
+         }
+
+         .phone,
+         .email {
+             display: inline-block;
+             vertical-align: top;
+             font: 0.875em Arial;
+             color: #454545;
+         }
+     }
+
+ }
+
+ .profileNote {
+
+     .txtHead {
+         display: block;
+         font: bold 0.9375em Arial;
+         color: #353535;
+         margin-bottom: 3px;
+     }
+
+     textarea {
+         width: 100%;
+         height: 35px;
+         padding: 7px;
+         border: 1px solid #a7a7a7;
+         border-radius: 2px;
+         background: #fff;
+         font: 0.8125em Arial;
+         color: #575757;
+         outline: 0;
+     }
+
+     .oldNoteBlock {
+         display: block;
+         max-height: 140px;
+         overflow-y: auto;
+         margin-top: 20px;
+         background: #f8f8f8;
+         padding: 10px;
+
+         .dateBy {
+             display: block;
+             padding: 1px 0;
+             border-top: 1px dashed #ccc;
+             border-bottom: 1px dashed #ccc;
+             margin-top: 5px;
+         }
+
+         .addedOn,
+         .addedBy {
+             display: inline-block;
+             font: bold 0.675em Arial;
+             color: #454545;
+             margin-right: 15px;
+         }
+
+         .noteTxt {
+             display: block;
+             font: 0.75em Arial;
+             color: #454545;
+             margin-bottom: 8px;
+             padding: 5px 0
+         }
+     }
+
+
+ }
