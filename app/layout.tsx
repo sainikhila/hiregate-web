@@ -8,6 +8,9 @@ import "@content/scss/common.scss";
 import "@content/scss/popcontent.scss";
 
 const RootLayout = ({ children }) => {
+
+  // console.log(DefaultTheme);
+
   return (
     <html lang="en">
       <body>

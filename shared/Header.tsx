@@ -131,7 +131,7 @@ const Header = () => {
                                     className={isSelected(page.link) ? 'selected' : ''}
                                     key={page.id}
                                     sx={{
-                                        color: "#ffffff", my: 2, display: 'block', textTransform: "none",
+                                        color: "#ffffff", my: 2, mr: 1, display: 'block', textTransform: "none",
                                         '&.selected': {
                                             backgroundColor: (theme) => theme.palette.primary.light,
                                             color: 'white',

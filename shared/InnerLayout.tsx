@@ -1,6 +1,6 @@
 "use client";
 
-import { Container } from '@mui/material';
+import { Container, Toolbar } from '@mui/material';
 import Header from './Header';
 
 const InnerLayout = ({ children }) => {
@@ -8,6 +8,7 @@ const InnerLayout = ({ children }) => {
         <>
             <Header />
             <Container maxWidth="xl">
+                <Toolbar />
                 {children}
             </Container>
         </>
